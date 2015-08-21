@@ -5,4 +5,13 @@
         <!-- Customize your theme here. -->
     </style>
 
+    <style name="title_label">
+        <item name="android:textSize">@dimen/label_title_size</item>
+    </style>
+
+    <style name="button_style">
+        <item name="android:width">@dimen/button_width</item>
+        <item name="android:layout_marginTop">@dimen/min_margin</item>
+        <item name="android:background">@color/button_orange_background_color</item>
+    </style>
 </resources>

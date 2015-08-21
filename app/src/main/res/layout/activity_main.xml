@@ -1,11 +1,82 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_background_color"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+    tools:context=".MainActivity">
 
-    <TextView android:text="@string/hello_world" android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/my_title"
+        style="@style/title_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/main_activity_title" />
+
+    <Button
+        android:id="@+id/media_streamer"
+        style="@style/button_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/my_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:onClick="onClickButton"
+        android:text="@string/main_activity_spotify_title" />
+
+    <Button
+        android:id="@+id/super_do1"
+        style="@style/button_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/media_streamer"
+        android:layout_centerHorizontal="true"
+        android:onClick="onClickButton"
+        android:text="@string/main_activity_score" />
+
+    <Button
+        android:id="@+id/super_do2"
+        style="@style/button_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/super_do1"
+        android:layout_centerHorizontal="true"
+        android:text="@string/main_activity_library" />
+
+    <Button
+        android:id="@+id/ant_terminator"
+        style="@style/button_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/super_do2"
+        android:layout_centerHorizontal="true"
+        android:onClick="onClickButton"
+        android:text="@string/main_activity_build" />
+
+    <Button
+        android:id="@+id/materialize"
+        style="@style/button_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ant_terminator"
+        android:layout_centerHorizontal="true"
+        android:onClick="onClickButton"
+        android:text="@string/main_activity_bacon" />
+
+    <Button
+        android:id="@+id/capstone"
+        style="@style/button_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/materialize"
+        android:layout_centerHorizontal="true"
+        android:background="@color/button_pinck_background_color"
+        android:onClick="onClickButton"
+        android:text="@string/main_activity_capstone"
+        android:textColor="@android:color/white" />
 
 </RelativeLayout>

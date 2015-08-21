@@ -1,6 +1,21 @@
 <resources>
     <string name="app_name">My App Portfolio</string>
 
-    <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
+    <string name="main_activity_title">My Nanodegree Apps!</string>
+
+    <!--main activity!-->
+    <string name="main_activity_spotify_app_name">Spotify Streamer</string>
+    <string name="main_activity_super_dou_app_name">Super Duo (2 buttons: Football Scores App and Library App)</string>
+    <string name="main_activity_build_app_name">Build It Bigger</string>
+    <string name="main_activity_xyz_app_name">XYZ Reader</string>
+    <string name="main_activity_capstone_app_name">Capstone</string>
+    <string name="main_activity_button_toast_description">This button will launch my </string>
+    <!-- main activity buttons!-->
+    <string name="main_activity_spotify_title">SPOTIFY STREAMER</string>
+    <string name="main_activity_score">SCORES APP</string>
+    <string name="main_activity_library">LIBRARY APP</string>
+    <string name="main_activity_build">BUILD IT BIGGER</string>
+    <string name="main_activity_bacon">BACON READER</string>
+    <string name="main_activity_capstone">CAPSTONE: MY OWN APP</string>
+
 </resources>

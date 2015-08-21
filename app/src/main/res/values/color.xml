@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="activity_background_color">#E3F2FD</color>
+    <color name="button_orange_background_color">#F57C00</color>
+    <color name="button_pinck_background_color">#FF1744</color>
+
+</resources>
